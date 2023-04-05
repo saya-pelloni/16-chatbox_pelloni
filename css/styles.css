@@ -91,9 +91,25 @@ header{
   width: 169px;
   margin-left: 95px;
   margin-bottom: 18px;
-  
-  
-  
- 
 }
  
+.hack-chat {
+  background: navy;
+  margin: 0px;
+  padding-top: 65px;
+}
+
+.text-hack {
+  color: white;
+  margin-bottom: 1px;
+  margin-left: 10px;
+}
+
+.message-box-uncknow {
+  background: seagreen;
+  padding: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-right: 140px;
+}
