@@ -94,15 +94,18 @@ header{
 }
  
 .hack-chat {
-  background: navy;
-  margin: 0px;
+  background-image: url(../img/hack-fond.jpg);
+  background-size: 300px;
   padding-top: 65px;
+  margin: -10px;
+  padding-bottom: 80px;
 }
 
 .text-hack {
   color: white;
   margin-bottom: 1px;
-  margin-left: 10px;
+  margin-left: 40px;
+  
 }
 
 .message-box-uncknow {
@@ -111,5 +114,6 @@ header{
   border-bottom-right-radius: 12px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  margin-right: 140px;
 }
+
+
