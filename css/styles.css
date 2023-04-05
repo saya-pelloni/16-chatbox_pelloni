@@ -17,22 +17,25 @@ img {
   display: block;
   max-width: 100%;
 }
-.profil-pictur-alex {
-  
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+.profil-picture-alex {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  margin-bottom: 20px;
+  background: rgb(221, 221, 221);
 }
 
-h1{
-  background: rgb(221, 221, 221);
-  padding: 20px;
+.image-alex {50
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  margin-left: 40px;
 }
 
 .message-box-sam {
   margin-left: 95px;
   padding: 6px;
-  margin-bottom: 18px;
+  margin-bottom: 11px;
   background: rgb(255, 227, 250);
   border-bottom-left-radius: 12px;
   border-top-left-radius: 12px;
@@ -52,7 +55,7 @@ h1{
   border-bottom-right-radius: 12px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -70,4 +73,10 @@ footer {
 .text-alex {
   margin-bottom: 1px;
  }
+
+.alex-gif {
+  width: 150px;
+  margin-left: 30px;
+  margin-bottom: 18px;
+}
  
