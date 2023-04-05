@@ -21,11 +21,13 @@ img {
   display: flex;
   flex-direction: row;
   height: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   background: rgb(221, 221, 221);
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
-.image-alex {50
+.image-alex {
   background: white;
   border-radius: 50px;
   display: flex;
@@ -45,7 +47,6 @@ img {
 
 .message-content {
   text-align: center;
-
 }
 
 .message-box-alex {
@@ -63,6 +64,7 @@ footer {
   background: rgb(201, 201, 201);
   padding: 30px;
   position: sticky;
+  bottom: 0;
 }
 
 .text-sam {
@@ -78,5 +80,20 @@ footer {
   width: 150px;
   margin-left: 30px;
   margin-bottom: 18px;
+}
+
+header{
+  position: sticky;
+  top: 0;
+}
+
+.sam-gif {
+  display: flex;
+  width: 240px;
+  margin-left: 6px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+  
+ 
 }
  
